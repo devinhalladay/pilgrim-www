@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pilgrim Technologies: NYC design research lab</title>
+    <link rel="stylesheet" href="/public/stylesheets/app.css" />
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene auto-enter-vr="auto-enter-vr">
+      <a-assets>
+        <a-asset-item id="frame-obj2" src="/public/FrameX8.obj"></a-asset-item>
+        <a-asset-item id="frame-mtl" src="/public/images/metal.jpg"></a-asset-item>
+        <img
+          id="img1"
+          crossorigin="anonymous"
+          src="/public/images/pilgrim.jpg"
+        />
+      </a-assets>
+      <a-obj-model
+        position="-1 1.5 -6"
+        rotation="90 -90 0"
+        scale="2 4 4"
+        src="#frame-obj2"
+        mtl="#frame-mtl"
+      ></a-obj-model>
+      <a-sky color="#000000"></a-sky>
+      <a-image
+        position="-1 1.5 -6"
+        src="#img1"
+        id="frame1"
+        crossorigin="anonymous"
+        onClick="changeSrc()"
+        height="3.8"
+        width="6.8"
+      ></a-image>
+      <a-camera>
+        <a-cursor id="cursor">
+          <a-animation
+            begin="click"
+            easing="ease-in"
+            attribute="scale"
+            fill="backwards"
+            from="0.1 0.1 0.1"
+            to="1 1 1"
+            dur="150"
+          ></a-animation>
+          <a-animation
+            begin="cursor-fusing"
+            easing="ease-in"
+            attribute="scale"
+            from="1 1 1"
+            to="0.1 0.1 0.1"
+            dur="1500"
+          ></a-animation>
+        </a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
