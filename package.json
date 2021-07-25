@@ -1,22 +1,45 @@
 {
-  "name": "pilgrim",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
     "@react-three/drei": "^7.2.2",
     "@react-three/fiber": "^7.0.6",
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "4.0.3",
+    "react-typography": "^0.16.20",
     "three": "^0.130.1",
-    "three-stdlib": "^2.3.1"
+    "typography": "^0.16.21",
+    "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "next-transpile-modules": "^8.0.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
