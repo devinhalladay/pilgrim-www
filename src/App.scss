@@ -122,6 +122,8 @@ html {
   // font-size: 16px;
   // line-height: 1.5;
   // text-align: left;
+  border: 10px solid #ef1413;
+  min-height: 100vh;
   margin: 0;
   padding: 2rem;
   @media (max-width: 1000px) {
@@ -260,7 +262,7 @@ svg {
 
 blockquote {
   font-family: "Compagnon";
-  font-weight: 600;
+  font-weight: 500;
   color: #ef1413;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -378,14 +380,14 @@ h1 {
   font-size: 20px;
 }
 
-.frame {
-  border: 10px solid #ef1413;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
+// .frame {
+//   border: 10px solid #ef1413;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   bottom: 0;
+// }
 
 .top,
 .bottom {
