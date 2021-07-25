@@ -9,6 +9,7 @@ import Frame from "./Frame";
 import { TypographyStyle } from "react-typography";
 import Typography from "typography";
 import "./App.scss";
+import "./Fonts.css";
 
 const typography = new Typography({
   baseFontSize: "24px",

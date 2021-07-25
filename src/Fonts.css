@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("./fonts/Steps-Mono-Mono.woff2") format("woff2"),
+    url("./fonts/Steps-Mono-Mono.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("./fonts/Steps-Mono-Thin.woff2") format("woff2"),
+    url("./fonts/Steps-Mono-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minipax";
+  src: url("./fonts/Minipax-Regular.woff2") format("woff2"),
+    url("./fonts/Minipax-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minipax";
+  src: url("./fonts/Minipax-Medium.woff2") format("woff2"),
+    url("./fonts/Minipax-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minipax";
+  src: url("./fonts/Minipax-SemiBold.woff2") format("woff2"),
+    url("./fonts/Minipax-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minipax";
+  src: url("./fonts/Minipax-Bold.woff2") format("woff2"),
+    url("./fonts/Minipax-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mono";
+  src: url("./fonts/Mono.woff2") format("woff2"),
+    url("./fonts/Mono.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Compagnon';
+  src: url('./fonts/Compagnon-LightItalic.woff2') format('woff2'),
+      url('./fonts/Compagnon-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Compagnon';
+  src: url('./fonts/Compagnon-Light.woff2') format('woff2'),
+      url('./fonts/Compagnon-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Compagnon Roman';
+  src: url('./fonts/Compagnon-Roman.woff2') format('woff2'),
+      url('./fonts/Compagnon-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Compagnon';
+  src: url('./fonts/Compagnon-Bold.woff2') format('woff2'),
+      url('./fonts/Compagnon-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Compagnon';
+  src: url('./fonts/Compagnon-Medium.woff2') format('woff2'),
+      url('./fonts/Compagnon-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
