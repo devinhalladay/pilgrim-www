@@ -25,7 +25,10 @@ function App() {
 
   return (
     <div className="App layout">
-      <div class="frame"></div>
+      <Helmet>
+        <title>Pilgrim — Design for the Frontier</title>
+      </Helmet>
+
       <main>
         <div class="top">
           <blockquote>

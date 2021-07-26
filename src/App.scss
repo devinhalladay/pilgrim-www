@@ -316,11 +316,11 @@ cite {
 .bottom {
   // margin-top: 1rem;
   p {
-    font-family: "Compagnon";
-    font-weight: bold;
+    font-family: "Minipax";
+    // font-weight: bold;
   }
   display: flex;
-  align-items: flex-end;
+  // align-items: flex-end;
   flex-direction: column;
 }
 
@@ -365,7 +365,7 @@ h1 {
 
 .bottom * {
   max-width: 70%;
-  text-align: right;
+  // text-align: right;
 
   @media (max-width: 1000px) {
     max-width: 100%;
