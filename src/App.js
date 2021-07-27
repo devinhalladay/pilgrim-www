@@ -28,6 +28,7 @@ function App() {
       <Helmet>
         <title>Pilgrim — Design for the Frontier</title>
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:type" content="website" />
         <meta name="twitter:site" content="@pilgrim_inc" />
         <meta name="twitter:creator" content="@theflowingsky" />
         <meta
