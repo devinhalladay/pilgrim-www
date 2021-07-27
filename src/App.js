@@ -42,6 +42,87 @@ function App() {
           name="twitter:image"
           content="https://pilgrim.to/social-image.jpg"
         />
+
+        <link
+          rel="preload"
+          href="/fonts/Compagnon-Light.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Compagnon-Roman.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Compagnon-Bold.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Compagnon-Medium.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+
+        <link
+          rel="preload"
+          href="/fonts/Minipax-Regular.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Minipax-Medium.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Minipax-SemiBold.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Minipax-Bold.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+
+        <link
+          rel="preload"
+          href="/fonts/Mono.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+
+        <link
+          rel="preload"
+          href="/fonts/Steps-Mono-Mono.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Steps-Mono-Thin.woff2"
+          as="font"
+          crossorigin="anonymous"
+          type="font/woff2"
+        />
       </Helmet>
 
       <div class="image-fixed">
