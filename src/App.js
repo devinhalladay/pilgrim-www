@@ -27,7 +27,29 @@ function App() {
     <div className="App layout">
       <Helmet>
         <title>Pilgrim — Design for the Frontier</title>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@pilgrim_inc" />
+        <meta name="twitter:creator" content="@theflowingsky" />
+        <meta
+          name="twitter:title"
+          content="Pilgrim — For the Frontier"
+        />
+        <meta
+          name="twitter:description"
+          content="Pilgrim is a research practice for the frontier. We use design to investigate the evolution of social reality."
+        />
+        <meta
+          name="twitter:image"
+          content="https://pilgrim.to/social-image.jpg"
+        />
       </Helmet>
+
+      <div class="image-fixed">
+        <img
+          src="/astronomer.jpg"
+          alt="Johannes Vermeer, The Astronomer"
+        />
+      </div>
 
       <main>
         <div class="top">
@@ -37,8 +59,8 @@ function App() {
               experiences, perceptions, values, and modes of behavior,
               <h1 className="rhythm-xl">
                 <span>Pilgrim</span> is a research practice for the
-                frontier. We use design to investigate the evolution
-                of social reality.
+                frontier. We use design to investigate and provoke the
+                evolution of social reality.
               </h1>{" "}
               a mutation of our being-in-the-world.<span>”</span>
             </p>
