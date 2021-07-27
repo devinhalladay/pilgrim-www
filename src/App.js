@@ -44,28 +44,28 @@ function App() {
         />
 
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Compagnon-Light.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Compagnon-Roman.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Compagnon-Bold.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Compagnon-Medium.woff2"
           as="font"
           crossorigin="anonymous"
@@ -73,28 +73,28 @@ function App() {
         />
 
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Minipax-Regular.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Minipax-Medium.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Minipax-SemiBold.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Minipax-Bold.woff2"
           as="font"
           crossorigin="anonymous"
@@ -102,7 +102,7 @@ function App() {
         />
 
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Mono.woff2"
           as="font"
           crossorigin="anonymous"
@@ -110,14 +110,14 @@ function App() {
         />
 
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Steps-Mono-Mono.woff2"
           as="font"
           crossorigin="anonymous"
           type="font/woff2"
         />
         <link
-          rel="preload"
+          rel="prefetch"
           href="/fonts/Steps-Mono-Thin.woff2"
           as="font"
           crossorigin="anonymous"
