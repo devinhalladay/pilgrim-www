@@ -1,12 +1,4 @@
-import {
-  AdaptiveDpr,
-  AdaptiveEvents,
-  Environment,
-} from "@react-three/drei";
-import { Suspense } from "react";
-import { Helmet } from "react-helmet";
-import Frame from "./Frame";
-import { TypographyStyle } from "react-typography";
+import MetaTags from "react-meta-tags";
 import Typography from "typography";
 import "./App.scss";
 import "./Fonts.css";
@@ -25,7 +17,7 @@ function App() {
 
   return (
     <div className="App layout">
-      <Helmet>
+      <MetaTags>
         <title>Pilgrim — Design for the Frontier</title>
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
@@ -130,7 +122,7 @@ function App() {
           href="/favicon.ico"
           type="image/x-icon"
         />
-      </Helmet>
+      </MetaTags>
 
       <div class="image-fixed">
         <img
