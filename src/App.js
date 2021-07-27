@@ -123,6 +123,12 @@ function App() {
           crossorigin="anonymous"
           type="font/woff2"
         />
+
+        <link
+          rel="shortcut icon"
+          href="/favicon.png"
+          type="image/x-icon"
+        />
       </Helmet>
 
       <div class="image-fixed">
