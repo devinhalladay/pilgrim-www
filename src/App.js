@@ -17,113 +17,6 @@ function App() {
 
   return (
     <div className="App layout">
-      <MetaTags>
-        <title>Pilgrim — Design for the Frontier</title>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:site" content="@pilgrim_inc" />
-        <meta name="twitter:creator" content="@theflowingsky" />
-        <meta
-          name="twitter:title"
-          content="Pilgrim — For the Frontier"
-        />
-        <meta
-          name="twitter:description"
-          content="Pilgrim is a research practice for the frontier. We use design to investigate the evolution of social reality."
-        />
-        <meta
-          name="twitter:image"
-          content="https://pilgrim.to/social-image.jpg"
-        />
-
-        <link
-          rel="prefetch"
-          href="/fonts/Compagnon-Light.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Compagnon-Roman.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Compagnon-Bold.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Compagnon-Medium.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-
-        <link
-          rel="prefetch"
-          href="/fonts/Minipax-Regular.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Minipax-Medium.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Minipax-SemiBold.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Minipax-Bold.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-
-        <link
-          rel="prefetch"
-          href="/fonts/Mono.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-
-        <link
-          rel="prefetch"
-          href="/fonts/Steps-Mono-Mono.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-        <link
-          rel="prefetch"
-          href="/fonts/Steps-Mono-Thin.woff2"
-          as="font"
-          crossorigin="anonymous"
-          type="font/woff2"
-        />
-
-        <link
-          rel="shortcut icon"
-          href="/favicon.ico"
-          type="image/x-icon"
-        />
-      </MetaTags>
-
       <div class="image-fixed">
         <img
           src="/astronomer.jpg"
@@ -138,9 +31,7 @@ function App() {
               What is currently happening is a mutation of our
               experiences, perceptions, values, and modes of behavior,
               <h1 className="rhythm-xl">
-                <span>Pilgrim</span> is a research practice for the
-                frontier. We use design to investigate and provoke the
-                evolution of social reality.
+              In the next century, software will spell the end of the expert class and the division of skilled labor. Pilgrim is a design research lab investigating a new industrial revolution, driven by new computers, tools, and forms of media.
               </h1>{" "}
               a mutation of our being-in-the-world.<span>”</span>
             </p>
@@ -155,10 +46,14 @@ function App() {
         </div> */}
         <div class="bottom">
           <p className="rhythm-m">
-            We are currently investigating post-disciplinary political
-            economies, through the design of novel software systems
-            for intuitive reasoning and systems awareness.
+            Here are some things we are interested in:
           </p>
+          <ul>
+            <li><strong>The technological evolution of writing systems</strong> — The medium of written language is entering a phase of rapid evolution in form and semantic capability, propelled by artificial intelligence and a boom in knowledge work and programming.</li>
+            <li><strong>Design tools for modeling complex systems</strong> — There really aren't any great tools for software design. There's extremely high utility in creating tools for thinking with dynamic social systems, feedback mechanisms, and constraints.</li>
+            <li><strong>Software for experts with incredibly low barriers to entry</strong> — Software has introduced new means of production around the world, yet so many jobs remain highly specialized and tightly gatekept. As access to advanced computing capabilities increases around the world, we'll see skilled labor proliferate.</li>
+            <li><strong>Primitive protocols for interoperability in software</strong> — Open and interconnected software ecosystems are key to transforming the technical ability of the masses. The future of digital tools will involve a highly flexible, shared protocol for information storage and transfer.</li>
+          </ul>
         </div>
       </main>
       <footer>
